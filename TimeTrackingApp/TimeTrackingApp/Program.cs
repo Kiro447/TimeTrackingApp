@@ -86,7 +86,7 @@ while (true)
 }
 
 
-void UserData() 
-{ 
+void UserData()
+{
     userService.Register(new User("Kiril", " Jordanov", 25, "Test123", "Test123"));
 }

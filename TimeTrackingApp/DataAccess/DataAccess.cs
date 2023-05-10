@@ -1,9 +1,4 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TimeTrackingAppDataAccess.Interfaces;
 using TimeTrackingAppDomain.Entities;
 
@@ -84,7 +79,7 @@ public class DataAccess<T> : IDataAccess<T> where T : BaseEntity
         return Read();
     }
 
-    public  T GetUserById(int id)
+    public T GetUserById(int id)
     {
         List<T> dataB = Read();
         return dataB.FirstOrDefault(u => u.Id == id);
