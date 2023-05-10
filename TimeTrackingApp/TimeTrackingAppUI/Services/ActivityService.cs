@@ -83,9 +83,6 @@ public class ActivityService<T> where T : BaseActivity
     {
         Console.Clear();
 
-        //var allReadingAc = user.ListOfActivities.OfType<Reading>().ToList();
-        //var allReadingAc = user.ListOfActivities.Where(ac => ac.ActivityType == ActivityType.Reading).ToList();
-
         var allReadingAc = user.ReadingActivities;
 
         if (!Validators.ListEmptyCheck(allReadingAc, "reading statistics")) return;
@@ -93,8 +90,6 @@ public class ActivityService<T> where T : BaseActivity
         var totalaReadingHours = allReadingAc.Sum(hours => hours.TrackedTime.Minutes);
         var averageReading = allReadingAc.Average(min => min.TrackedTime.Minutes);
         var totalPages = allReadingAc.Sum(pages => pages.BookPages);
-
-        // Favourite type
 
         int bellesLetters = allReadingAc.Where(x => x.BookType == BookType.BellesLettres).Count();
         int fiction = allReadingAc.Where(x => x.BookType == BookType.Fiction).Count();
@@ -121,7 +116,6 @@ public class ActivityService<T> where T : BaseActivity
     {
         Console.Clear();
 
-        //var allWorkingAc = user.ListOfActivities.OfType<Working>().ToList();
 
         var allWorkingAc = user.WorkingActivities;
 
@@ -133,8 +127,6 @@ public class ActivityService<T> where T : BaseActivity
                                         .Sum(hours => hours.TrackedTime.Hours);
         var officeWorking = allWorkingAc.Where(working => working.WorkingType == WorkingType.AtOffice)
                                         .Sum(hours => hours.TrackedTime.Hours);
-
-        // Favourite type
 
         int home = allWorkingAc.Where(x => x.WorkingType == WorkingType.Remotely).Count();
         int office = allWorkingAc.Where(x => x.WorkingType == WorkingType.AtOffice).Count();
