@@ -1,0 +1,96 @@
+[
+  {
+    "FirstName": "Krki",
+    "LastName": "Ikrk",
+    "Age": 23,
+    "Username": "Kiril23",
+    "Password": "Kiril23",
+    "IsActive": true,
+    "ReadingActivities": [
+      {
+        "BookPages": 10,
+        "BookType": 2,
+        "ActivityType": 1,
+        "StartTrackingActivity": "2023-05-10T23:28:50.764126+02:00",
+        "StopTrackingActivity": "2023-05-10T23:28:52.7610708+02:00",
+        "TrackedTime": "00:00:01.9969448",
+        "Id": 11
+      },
+      {
+        "BookPages": -1,
+        "BookType": 2,
+        "ActivityType": 1,
+        "StartTrackingActivity": "2023-05-11T00:08:14.296192+02:00",
+        "StopTrackingActivity": "2023-05-11T00:08:15.1526225+02:00",
+        "TrackedTime": "00:00:00.8564305",
+        "Id": 11
+      }
+    ],
+    "WorkingActivities": [],
+    "ExercisingActivities": [
+      {
+        "ExercisingType": 2,
+        "ActivityType": 2,
+        "StartTrackingActivity": "2023-05-10T23:28:58.0100369+02:00",
+        "StopTrackingActivity": "2023-05-10T23:28:59.6050679+02:00",
+        "TrackedTime": "00:00:01.5950310",
+        "Id": 0
+      }
+    ],
+    "OtherHobbiesActivities": [
+      {
+        "OtherHobbie": "Petrol",
+        "ActivityType": 4,
+        "StartTrackingActivity": "2023-05-10T23:29:09.0769058+02:00",
+        "StopTrackingActivity": "2023-05-10T23:29:11.0409053+02:00",
+        "TrackedTime": "00:00:01.9639995",
+        "Id": 0
+      }
+    ],
+    "ListOfActivities": [
+      {
+        "ActivityType": 1,
+        "StartTrackingActivity": "2023-05-10T23:28:50.764126+02:00",
+        "StopTrackingActivity": "2023-05-10T23:28:52.7610708+02:00",
+        "TrackedTime": "00:00:01.9969448",
+        "Id": 11
+      },
+      {
+        "ActivityType": 2,
+        "StartTrackingActivity": "2023-05-10T23:28:58.0100369+02:00",
+        "StopTrackingActivity": "2023-05-10T23:28:59.6050679+02:00",
+        "TrackedTime": "00:00:01.5950310",
+        "Id": 0
+      },
+      {
+        "ActivityType": 4,
+        "StartTrackingActivity": "2023-05-10T23:29:09.0769058+02:00",
+        "StopTrackingActivity": "2023-05-10T23:29:11.0409053+02:00",
+        "TrackedTime": "00:00:01.9639995",
+        "Id": 0
+      },
+      {
+        "ActivityType": 1,
+        "StartTrackingActivity": "2023-05-11T00:08:14.296192+02:00",
+        "StopTrackingActivity": "2023-05-11T00:08:15.1526225+02:00",
+        "TrackedTime": "00:00:00.8564305",
+        "Id": 11
+      }
+    ],
+    "Id": 1
+  },
+  {
+    "FirstName": "Kiril",
+    "LastName": "Jordanov",
+    "Age": 23,
+    "Username": "Test123",
+    "Password": "Test1234",
+    "IsActive": true,
+    "ReadingActivities": [],
+    "WorkingActivities": [],
+    "ExercisingActivities": [],
+    "OtherHobbiesActivities": [],
+    "ListOfActivities": [],
+    "Id": 2
+  }
+]

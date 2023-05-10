@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "excMrE43Fn51q/F7tdmSXMr2pLPeWL2gsnfoPjgyjeO7h3wta63m8P3FchqNNQlyZE95gCu6HFwCjr8C/wD8pw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jorda\\Source\\Repos\\TimeTrackingApp\\TimeTrackingApp\\DataAccess\\TimeTrackingAppDataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jorda\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
